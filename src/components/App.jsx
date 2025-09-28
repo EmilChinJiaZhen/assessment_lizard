@@ -4,6 +4,8 @@ import CategoryFilter from "./CategoryFilter";
 import PostList from "./PostList";
 import PostDetail from "./PostDetail"; // new
 
+// IMPORTANT: If encountered ERR_PACKAGE_PATH_NOT_EXPORTED error, in order to run the app, you must run $env:NODE_OPTIONS="--openssl-legacy-provider" before running "npm start"
+
 /**
  * App component
  * - Fetches posts from MirageJS (/api/posts)
